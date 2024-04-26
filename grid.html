@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grid Layout</title>
     <style>
-        .container{
+        .container {
             display: grid;
-            /* grid-template-columns: 200px 200px 200px 200px; */
+            grid-template-columns: 200px 200px 200px 200px;
             /* grid-template-columns: repeat(2, 100px) 200px 150px; */
-            /* grid-template-columns: repeat(3, 1fr); */
+            grid-template-columns: repeat(3, 1fr);
             /* grid-template-columns: 100px 200px auto 100px; */
             grid-template-columns: 150px 200px 150px;
             /* justify-content: center; */
             justify-content: space-around;
         }
-        .item{
+
+        .item {
             border: 1px solid aquamarine;
         }
     </style>
 </head>
+
 <body>
     <h2>Explore Gird Layout: 2D Layout</h2>
 
@@ -49,4 +52,5 @@
         <div class="item">item - 20</div>
     </div>
 </body>
+
 </html>
